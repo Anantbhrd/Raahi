@@ -1,4 +1,4 @@
-# Raahi 
+# RAAHI
 # Real-time Arrival and Attendance Hub via IoT
 
 Raahi is a comprehensive full-stack application designed to track bus locations, calculate Estimated Time of Arrival (ETA), provide route recommendations, and simulate bus movements across campus routes. 
