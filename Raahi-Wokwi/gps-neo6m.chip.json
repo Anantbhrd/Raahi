@@ -1,0 +1,5 @@
+{
+  "name": "GPS NEO-6M Simulator",
+  "author": "Smart Bus Tracking System",
+  "pins": ["VCC", "GND", "RX", "TX"]
+}

@@ -1,0 +1,11 @@
+ESP32 DevKit C V4 pin map
+
+MFRC522: 3V3->3V3, GND->GND, SDA/SS->GPIO5, SCK->GPIO18, MISO->GPIO19, MOSI->GPIO23, RST->GPIO4.
+GPS NEO-6M: VCC->3V3 (simulation), GND->GND, TX->GPIO16, RX<-GPIO17 (optional).
+SIM800L: VCC->5V (simulation only), GND->GND, TX->GPIO26, RX<-GPIO27.
+I2C 16x2 LCD: VCC->5V (simulation), GND->GND, SDA->GPIO21, SCL->GPIO22.
+Green LED: GPIO14->220 ohm resistor->LED anode; LED cathode->GND.
+Buzzer: positive->GPIO25, negative->GND.
+SYNC button: one side->GPIO32, other side->GND; firmware uses INPUT_PULLUP.
+
+Physical warning: do not power a bare SIM800L from ESP32 3.3V/5V pins. Use the voltage/current supply required by the exact modem board, common ground, and appropriate UART logic levels. Prevent any 5V LCD I2C pull-up from reaching ESP32 GPIOs.

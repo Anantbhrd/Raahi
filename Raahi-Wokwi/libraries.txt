@@ -1,0 +1,3 @@
+MFRC522
+LiquidCrystal I2C
+TinyGPSPlus

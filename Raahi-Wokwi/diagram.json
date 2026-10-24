@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "author": "Smart Bus Tracking System - Bus Unit",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 80, "left": 40, "attrs": {} },
+    { "type": "board-mfrc522", "id": "rfid", "top": 110, "left": 355, "attrs": { "uid": "01:02:03:04" } },
+    { "type": "chip-gps-neo6m", "id": "gps", "top": -90, "left": 345, "attrs": {} },
+    { "type": "chip-sim800l", "id": "gsm", "top": 320, "left": 350, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcd", "top": -135, "left": 15, "attrs": { "pins": "i2c" } },
+    { "type": "wokwi-led", "id": "statusLed", "top": 15, "left": -95, "attrs": { "color": "green", "label": "ACCESS" } },
+    { "type": "wokwi-resistor", "id": "ledResistor", "top": 30, "left": -30, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": 335, "left": -85, "attrs": { "volume": "0.25" } },
+    { "type": "wokwi-pushbutton", "id": "syncButton", "top": 200, "left": -105, "attrs": { "color": "blue", "label": "SYNC" } }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+
+    [ "esp:3V3", "rfid:3.3V", "red", [] ],
+    [ "esp:GND.1", "rfid:GND", "black", [] ],
+    [ "esp:5", "rfid:SDA", "green", [] ],
+    [ "esp:18", "rfid:SCK", "orange", [] ],
+    [ "esp:19", "rfid:MISO", "blue", [] ],
+    [ "esp:23", "rfid:MOSI", "purple", [] ],
+    [ "esp:4", "rfid:RST", "cyan", [] ],
+
+    [ "gps:VCC", "esp:3V3", "red", [] ],
+    [ "gps:GND", "esp:GND.1", "black", [] ],
+    [ "gps:TX", "esp:16", "green", [] ],
+    [ "esp:17", "gps:RX", "blue", [] ],
+
+    [ "gsm:VCC", "esp:5V", "red", [] ],
+    [ "gsm:GND", "esp:GND.2", "black", [] ],
+    [ "gsm:TX", "esp:26", "green", [] ],
+    [ "esp:27", "gsm:RX", "blue", [] ],
+
+    [ "lcd:VCC", "esp:5V", "red", [] ],
+    [ "lcd:GND", "esp:GND.2", "black", [] ],
+    [ "lcd:SDA", "esp:21", "green", [] ],
+    [ "lcd:SCL", "esp:22", "blue", [] ],
+
+    [ "esp:14", "ledResistor:1", "green", [] ],
+    [ "ledResistor:2", "statusLed:A", "green", [] ],
+    [ "statusLed:C", "esp:GND.3", "black", [] ],
+
+    [ "esp:25", "buzzer:2", "orange", [] ],
+    [ "buzzer:1", "esp:GND.3", "black", [] ],
+
+    [ "esp:32", "syncButton:1.l", "blue", [] ],
+    [ "syncButton:2.l", "esp:GND.3", "black", [] ]
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,14 @@
+Smart Bus Tracking Unit — CAD handoff
+
+Included printable parts:
+- bus_unit_base.stl
+- bus_unit_front_panel.stl
+
+Editable source:
+- bus_unit_enclosure.scad (OpenSCAD; set part to assembly/base/front)
+
+Design envelope: 100 mm wide x 120 mm high x approximately 43 mm overall depth.
+Front hardware: 16x2 I2C LCD window, passive RFID tap zone, one status LED opening, one sync-button opening, buzzer grille, labels.
+Body: removable screw-fastened panel, generic PCB support pads, four mounting holes on rear wall, right-side service opening, three bottom cable/antenna outlets.
+
+Not a production-ready or automotive-certified enclosure. Check the exact component dimensions, connector locations, RFID read range, module clearances, antenna performance, power supply and temperature/vibration requirements before fitting the case permanently into a bus.

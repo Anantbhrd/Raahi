@@ -1,0 +1,90 @@
+STEP translation to Solid Edge
+Date: Friday,October 23,2026 03:02PM
+Source File: C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\RAAHI_Bus_Unit_Exploded_Assembly.step
+Author: Author
+Organization: Open CASCADE
+Source System: Open CASCADE 7.9
+
+Hardware:
+Processor: 12th Gen Intel(R) Core(TM) i5-12450HX
+Operating System: Windows 11 Version:26H2 Build:26300 System Type:64-bit
+Installed Memory: 15.71 GB
+
+Software Information
+Parasolid Version: 38.0.150
+PSBodyShop Version: 38.0.111
+Step Adapter Version: 1700.0.0
+Solid Edge Version: 226.00.01.004 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\Anant\Documents\PROJECTS\RAHI\CAD
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\RAAHI_Bus_Unit_Exploded_Assembly.asm
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\01_Enclosure_Base_Rear_Shell_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\02_LCD_I2C_PCB_80x34_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\03_LCD_Bezel_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\04_LCD_Blue_Glass_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\05_LCD_Header_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\06_MFRC522_RFID_PCB_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\07_RFID_Antenna_Outer_Trace_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\08_RFID_Antenna_Inner_Trace_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\09_RFID_IC_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\10_RFID_Header_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\11_ESP32_DevBoard_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\12_ESP32_RF_Shield_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\13_ESP32_Microcontroller_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\14_ESP32_USB_Connector_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\15_ESP32_Header_Row_A_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\16_ESP32_Header_Row_B_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\17_GSM_Module_PCB_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\18_GSM_Modem_Shield_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\19_GSM_SIM_Holder_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\20_GSM_Header_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\21_GPS_Receiver_PCB_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\22_GPS_Ceramic_Antenna_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\23_GPS_Receiver_IC_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\24_Buzzer_PCB_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\25_Buzzer_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\26_Front_Fascia_RFID_LCD_LED_Buzzer_Openings_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\27_RFID_Tap_Zone_Outer_Trim_Non_Metallic_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\28_RFID_Tap_Zone_Inner_Trim_Non_Metallic_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\29_RFID_Card_Icon_Outline_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\30_Label_RAAHI_Brand.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\31_Label_Bus_Unit_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\32_Label_Tap_ID_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\33_Label_Status_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\34_Label_Sync_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\35_Label_Audio_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\36_Green_Status_LED_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\37_Service_Sync_Button_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\38_Fascia_Screw_Head_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\39_Fascia_Screw_Head_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\40_Fascia_Screw_Head_0.par
+|--+Created SE Part File C:\Users\Anant\Documents\PROJECTS\RAHI\CAD\41_Fascia_Screw_Head_0.par
++Total Parts: 146
++Assemblies: 0
++Solid Bodies: 146
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 03

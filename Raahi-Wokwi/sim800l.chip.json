@@ -1,0 +1,5 @@
+{
+  "name": "SIM800L GSM Modem Simulator",
+  "author": "Smart Bus Tracking System",
+  "pins": ["VCC", "GND", "RX", "TX"]
+}
