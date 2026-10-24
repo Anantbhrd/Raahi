@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 # SmartBus Tracker
 
 SmartBus Tracker is a comprehensive full-stack application designed to track bus locations, calculate Estimated Time of Arrival (ETA), provide route recommendations, and simulate bus movements across campus routes. 
+=======
+# RAAHI
+# Real-time Arrival and Attendance Hub via IoT
+
+Raahi is a comprehensive full-stack application designed to track bus locations, calculate Estimated Time of Arrival (ETA), provide route recommendations, and simulate bus movements across campus routes. 
+>>>>>>> 22cefb4172a8b8d758294f09659b4f02649e0f00
 
 ## 🚀 Features
 
@@ -115,4 +122,8 @@ npm run test
 *   **`simulator.ts`**: Mocks live GPS data for buses moving along defined campus routes.
 *   **`eta.ts`**: Analyzes distance, traffic, and route data to predict arrivals.
 *   **`recommendation.ts`**: Recommends the fastest bus or route for a user based on their current location and destination.
+<<<<<<< HEAD
 *   **`campusRoutes.ts`**: Stores geospatial data and stops for the campus transit system.
+=======
+*   **`campusRoutes.ts`**: Stores geospatial data and stops for the campus transit system.
+>>>>>>> 22cefb4172a8b8d758294f09659b4f02649e0f00
