@@ -121,4 +121,4 @@ npm run test
 *   **`campusRoutes.ts`**: Stores geospatial data and stops for the campus transit system.
 =======
 *   **`campusRoutes.ts`**: Stores geospatial data and stops for the campus transit system.
->>>>>>> 22cefb4172a8b8d758294f09659b4f02649e0f00
+
